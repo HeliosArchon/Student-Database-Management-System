@@ -6,7 +6,7 @@ DATABASE_FILE = "student_data.txt"
 def get_all_students():
     """
     Reads the database file and converts it into a List of Lists.
-    Example return: [['1', 'Aryan', '20', 'A'], ['2', 'Arya', '22', 'B']]
+    Example return: [['1', 'Vibhor', '20', 'A'], ['2', 'Anvesha', '22', 'B']]
     """
     students = []
     try:
